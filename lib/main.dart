@@ -1,4 +1,5 @@
-import 'package:converter/pages/app.dart';
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
-void main() => runApp(App());
+import 'pages/app.dart';
+
+void main() => runApp(const App());

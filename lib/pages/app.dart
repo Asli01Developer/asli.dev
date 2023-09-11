@@ -1,5 +1,6 @@
-import 'package:converter/pages/home_pages.dart';
 import 'package:flutter/material.dart';
+
+import 'home_page/home_pages.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -7,12 +8,13 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Money Convertier",
+      title: 'Money Convertor',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(fontFamily: "Raleway",
-        useMaterial3: true,
+      theme: ThemeData(
+          useMaterial3: true,
+          fontFamily: "Raleway"
       ),
-      home: HomePage(),
+      home: const HomePage(),
     );
   }
 }
